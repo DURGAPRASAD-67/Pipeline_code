@@ -56,6 +56,18 @@
             <version>2.15.2</version>
         </dependency>
 
+        <!-- Allure Annotations for Reporting -->
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-java-commons</artifactId>
+            <version>2.13.9</version> <!-- Latest version as of now -->
+        </dependency>
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-testng</artifactId>
+            <version>2.13.9</version> <!-- Latest version as of now -->
+        </dependency>
+
         <!-- Logback Classic for SLF4J -->
         <dependency>
             <groupId>ch.qos.logback</groupId>
