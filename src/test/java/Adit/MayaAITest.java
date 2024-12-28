@@ -1,6 +1,8 @@
 import io.qameta.allure.*;
 import org.testng.annotations.Test;
 import org.testng.Assert;
+import org.junit.Assert;
+
 
 @Epic("MayaAI Functional Tests")
 @Feature("Database Status Verification")
