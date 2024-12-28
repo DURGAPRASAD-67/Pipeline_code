@@ -1,5 +1,6 @@
 import io.qameta.allure.*;
 import org.testng.annotations.Test;
+import org.testng.Assert;
 
 @Epic("MayaAI Functional Tests")
 @Feature("Database Status Verification")
@@ -12,6 +13,6 @@ public class MayaAITest {
     public void testDatabaseStatus() {
         MayaAI mayaAI = new MayaAI();
         boolean isActive = mayaAI.checkDatabaseStatus("2000000018", "Thub@123");
-        Assert.assertTrue("Database should be active", isActive);
+        Assert.assertTrue(isActive, "Database should be active");
     }
 }
